@@ -16,7 +16,7 @@ setup(name='Tiling',
       author='Michael Fogleman',
       author_email='michael.fogleman@gmail.com',
       url='https://github.com/fogleman/Tiling',
-      install_requires=['pycairo'],
+      install_requires=['cairocffi'],
       packages=['tiling'],
       classifiers=[
         "Development Status :: 5 - Production/Stable",

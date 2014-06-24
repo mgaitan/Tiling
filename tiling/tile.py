@@ -1,5 +1,5 @@
 from math import sin, cos, tan, pi, atan2
-import cairo
+import cairocffi as cairo
 
 # Model() defaults
 WIDTH = 1024

@@ -33,12 +33,17 @@ Wallpaper
 How To
 ~~~~~~
 
-`pycairo <http://cairographics.org/pycairo/>`_ is used for rendering.
-Installation on OS X is easy using Homebrew.
+You can install using ``pip``::
 
-::
+    pip install tiling
 
-    brew install py2cairo
+or the development version::
+
+	pip install https://github.com/fogleman/Tiling/archive/master.zip
+
+
+`cairocffi <https://pythonhosted.org/cairocffi/>`_ is used for rendering.
+
 
 Before creating a new pattern, set these flags to zoom in and label the
 polygons and their edges.
