@@ -1,4 +1,4 @@
-from tile import Model, Shape
+from tiling import Model, Shape
 
 BLUE = 0x477984
 ORANGE = 0xEEAA4D
